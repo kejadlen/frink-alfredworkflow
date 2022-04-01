@@ -26,7 +26,7 @@ fn main() {
     let items: Vec<_> = result
         .lines()
         .map(|x| html_re.replace_all(x, ""))
-        .map(|x| Item::new(x))
+        .map(Item::new)
         .collect();
     println!("{}", json!({ "items": items }));
 }
