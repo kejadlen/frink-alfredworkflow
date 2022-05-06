@@ -3,10 +3,8 @@ name = "frink"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-alphred = "0.1.9"
+alphred = "0.1.11"
+anyhow = { version = "1.0.56", features = ["backtrace"] }
 regex = "1.5.5"
 reqwest = { version = "0.11.10", features = ["blocking"] }
-serde_json = "1.0.79"
