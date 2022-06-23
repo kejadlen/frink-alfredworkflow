@@ -31,6 +31,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>E7DFC7D1-6C7B-4418-87F9-5281B7E18365</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C3211FD3-5BD3-487A-8AED-1EB963AF506C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C61A1997-E5AD-41F4-8FBA-F7AFCEACD85C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Alpha Chen</string>
@@ -139,6 +162,55 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>frink</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>frink</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Frink</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E7DFC7D1-6C7B-4418-87F9-5281B7E18365</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -161,9 +233,16 @@
 		<key>CAE2D3F6-49A8-46D7-9749-3652E7AE470B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>305</integer>
 			<key>ypos</key>
 			<integer>150</integer>
+		</dict>
+		<key>E7DFC7D1-6C7B-4418-87F9-5281B7E18365</key>
+		<dict>
+			<key>xpos</key>
+			<integer>305</integer>
+			<key>ypos</key>
+			<integer>280</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
